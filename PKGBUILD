@@ -8,7 +8,7 @@ license=('GPLv3')
 depends=('python3' 'pyqt5-python3' 'python3-markups' 'python3-markdown' 'python3-markdown-math' 'python3-chardet' 'python3-docutils' 'qtwebkit-tp' 'qtwebengine')
 makedepends=('python3' 'qt5-tools')
 source=("https://github.com/retext-project/${pkgname}/archive/${pkgver}.tar.gz")
-sha256sums=('dd9358dd541266eadf7b4f4606b1eb0a98fa321c25f58f1a9917ec4600345fad')
+sha256sums=('a1e8784fcb4e186a6e6e42a0f2be4098c27bedb96a9711aa17a9846278e7d932')
 
 prepare() {
 	cd "${pkgname}-${pkgver}"
