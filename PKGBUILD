@@ -1,6 +1,6 @@
 pkgname=retext
-pkgver=7.0.4
-pkgrel=2
+pkgver=7.2.1
+pkgrel=1
 pkgdesc="Simple but powerful editor for Markdown and reStructuredText"
 arch=('x86_64')
 url="https://github.com/retext-project/retext"
