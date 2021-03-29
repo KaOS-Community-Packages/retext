@@ -6,6 +6,5 @@ URL: https://github.com/retext-project/retext
 
 Depends (kcp):
 
-* python3-markdown
-* python3-markdown-math
-* python3-markups
+* python-markdown-math
+* python-markups
