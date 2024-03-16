@@ -1,5 +1,5 @@
 pkgname=retext
-pkgver=8.0.1
+pkgver=8.0.2
 pkgrel=1
 pkgdesc="Simple but powerful editor for Markdown and reStructuredText"
 arch=('x86_64')
@@ -8,7 +8,7 @@ license=('GPLv3')
 depends=('python3' 'pyqt6-python3' 'python3-markups' 'python3-markdown' 'python3-markdown-math' 'python3-chardet' 'python3-docutils' 'pyqt6-webengine' 'qtwebengine' 'pymdown-extensions')
 makedepends=('python3' 'qt6-tools')
 source=("https://github.com/retext-project/${pkgname}/archive/${pkgver}.tar.gz")
-sha256sums=('8381672537b6f4dcb437a1d42aae55e87415bb6ef05d6dec33922a7fec368bcd')
+sha256sums=('e40a1243767a9455870a86920f8ba4f35dff90d08bfe43da038a617136328d2b')
 
 prepare() {
 	cd "${pkgname}-${pkgver}"
