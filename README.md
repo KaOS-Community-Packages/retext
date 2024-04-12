@@ -8,3 +8,4 @@ Depends (kcp):
 
 * python-markdown-math
 * python-markups
+* pymdown-extensions
